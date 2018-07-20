@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bar_height"
+    android:background="@color/blue"
+    android:clipToPadding="false"
+    android:elevation="2dp">
+
+    <ImageView
+        android:id="@+id/whiteLauncherButton"
+        android:layout_width="@dimen/launcher_button_width"
+        android:layout_height="@dimen/bar_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/main_back"
+        android:paddingLeft="@dimen/launcher_button_padding"
+        android:paddingRight="@dimen/launcher_button_padding"
+        android:focusable="true"
+        android:onClick="onLauncherButtonClicked"
+        android:src="@drawable/ic_launcher_white"
+        android:tag="hideMenu"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/favoritesBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bar_height"
+        android:layout_toRightOf="@+id/whiteLauncherButton"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/favorite0"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:padding="@dimen/favorite_padding"
+            android:background="?attr/appSelectableItemBackground"
+            android:onClick="onFavoriteButtonClicked"
+            tools:src="@drawable/ic_contact"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/favorite1"
+            android:layout_width="0px"
+            android:background="?attr/appSelectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:padding="@dimen/favorite_padding"
+            android:onClick="onFavoriteButtonClicked"
+            tools:src="@drawable/ic_contact"
+            android:tag="1" />
+
+        <ImageView
+            android:id="@+id/favorite2"
+            android:layout_width="0px"
+            android:background="?attr/appSelectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:padding="@dimen/favorite_padding"
+            android:onClick="onFavoriteButtonClicked"
+            tools:src="@drawable/ic_contact"
+            android:tag="2" />
+
+        <ImageView
+            android:id="@+id/favorite3"
+            android:layout_width="0px"
+            android:background="?attr/appSelectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:padding="@dimen/favorite_padding"
+            android:onClick="onFavoriteButtonClicked"
+            tools:src="@drawable/ic_contact"
+            android:tag="3" />
+
+        <ImageView
+            android:id="@+id/favorite4"
+            android:layout_width="0px"
+            android:background="?attr/appSelectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:padding="@dimen/favorite_padding"
+            android:onClick="onFavoriteButtonClicked"
+            tools:src="@drawable/ic_contact"
+            android:tag="4" />
+
+        <ImageView
+            android:id="@+id/favorite5"
+            android:layout_width="0px"
+            android:background="?attr/appSelectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:padding="@dimen/favorite_padding"
+            android:onClick="onFavoriteButtonClicked"
+            tools:src="@drawable/ic_contact"
+            android:tag="5" />
+    </LinearLayout>
+</RelativeLayout>
