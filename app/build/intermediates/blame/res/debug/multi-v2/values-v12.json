@@ -1,10 +1,26 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\SuperUser\\Desktop\\launcher\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
+            "outputFile": "/home/superuser/Workspace/Android/NimbleLauncher/C:\\Users\\SuperUser\\Desktop\\launcher\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SuperUser\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\d07df49fbcbd89a787df1bd5e778fc74\\res\\values-v12\\values-v12.xml",
+                    "source": "/home/superuser/Workspace/Android/NimbleLauncher/C:\\Users\\SuperUser\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\d07df49fbcbd89a787df1bd5e778fc74\\res\\values-v12\\values-v12.xml",
+                    "from": {
+                        "startLines": "2,5,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,279,479,598",
+                        "endLines": "4,7,8,9",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "274,474,593,688"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/superuser/Workspace/Android/NimbleLauncher/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml",
+            "map": [
+                {
+                    "source": "/home/superuser/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/09fdbf9343a76c73c5e751d7e8c48486/res/values-v12/values-v12.xml",
                     "from": {
                         "startLines": "2,5,8,9",
                         "startColumns": "4,4,4,4",
